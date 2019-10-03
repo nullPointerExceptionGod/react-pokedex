@@ -7,11 +7,13 @@ const DetailView = ({pokemon}) => {
     return (
         <section className="detail-view">
             {
-                sprite !== undefined
-                &&
-                <img src={sprite}
-                    alt="Pokemon Sprite" 
-                    className='sprite-image'/>
+                sprite !== undefined ? 
+                    <img src={sprite}
+                        alt="Pokemon Sprite" 
+                        className="sprite-image"
+                    /> 
+                :
+                    <div className="sprite-image"></div>
             }
 
             <div className="data-wrapper">
