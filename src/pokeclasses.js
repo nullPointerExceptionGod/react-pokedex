@@ -1,4 +1,4 @@
-export const pokeClasses = [
+const pokeClasses = [
   {
     id: "1",
     backgroundPosition: "0 0",

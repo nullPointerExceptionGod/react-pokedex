@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './components/App';
+import ParticlesBackground from './components/particles/particlesbackground'
+
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<ParticlesBackground />, document.getElementById('root'));
 
 serviceWorker.unregister();
