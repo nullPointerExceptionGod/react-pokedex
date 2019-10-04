@@ -7,7 +7,7 @@ const DetailView = ({pokemon}) => {
     return (
         <section className="detail-view">
             {
-                sprite !== undefined ? 
+                (sprite !== undefined) ? 
                     <img src={sprite}
                         alt="Pokemon Sprite" 
                         className="sprite-image"
